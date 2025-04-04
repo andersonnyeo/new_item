@@ -109,3 +109,45 @@ h3 {
   color: #27ae60;
   margin-top: 10px;
 }
+
+
+h3 {
+  text-align: center;
+  /* font-size: 1.8em; /* Larger font size  */
+  color: #2c3e50; /* Darker text color for readability */
+  font-weight: 600; /* Bold text for emphasis */
+  margin-bottom: 20px; /* Space below the heading */
+  letter-spacing: 1px; /* Adds some space between letters for a modern look */
+  position: relative; /* To allow for the underline effect */
+}
+
+h3::after {
+  content: ''; /* Adds a pseudo-element after the heading */
+  display: block;
+  width: 60px; /* Underline width */
+  height: 4px; /* Underline thickness */
+  background-color: #27ae60; /* Green underline color */
+  margin: 10px auto 0; /* Centers the underline and adds space from the text */
+  border-radius: 2px; /* Rounded corners for the underline */
+}
+
+
+h4 {
+  text-align: center;
+  /* font-size: 1.8em; /* Larger font size  */
+  color: #2c3e50; /* Darker text color for readability */
+  font-weight: 600; /* Bold text for emphasis */
+  margin-bottom: 20px; /* Space below the heading */
+  letter-spacing: 1px; /* Adds some space between letters for a modern look */
+  position: relative; /* To allow for the underline effect */
+}
+
+h4::after {
+  content: ''; /* Adds a pseudo-element after the heading */
+  display: block;
+  width: 60px; /* Underline width */
+  height: 4px; /* Underline thickness */
+  background-color: #27ae60; /* Green underline color */
+  margin: 10px auto 0; /* Centers the underline and adds space from the text */
+  border-radius: 2px; /* Rounded corners for the underline */
+}
